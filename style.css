@@ -130,16 +130,16 @@ figcaption,
   color: grey;
 }
 
-#special{
-  padding-top: 16px;
+#heal{
+  padding-top: 2px;
 }
 
 #love{
   padding-top: 2px;
 }
 
-#heal{
-  padding: 1px;
+#special{
+  padding-top: 17px;
 }
 
 article.post a {
