@@ -130,6 +130,14 @@ figcaption,
   color: grey;
 }
 
+#special{
+  padding-top: 15px;
+}
+
+#love{
+  padding-top: 1px;
+}
+
 article.post a {
   color: #44617D;
   text-decoration: none;
