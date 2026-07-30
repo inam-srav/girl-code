@@ -132,6 +132,7 @@ figcaption,
 
 article.post a {
   color: #44617D;
+  text-decoration: none;
 }
 
 article.post figure {
