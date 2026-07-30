@@ -1,8 +1,6 @@
-/*Reset Box Model*/
 * {
   box-sizing: border-box;
 }
-/* Utility Classes*/
 
 .container {
   width: 80vw;
@@ -10,19 +8,12 @@
   max-width: 960px;
 }
 
-/* Customize Slideshow */
-
-/* Customize Previous/Next/Dots/Autoplay */
-
 .slick-autoplay-toggle-button,
-.slick-prev .slick-prev-icon,
-.slick-next .slick-next-icon,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
 .slick-dots li button .slick-dot-icon,
 .slick-dots li.slick-active button .slick-dot-icon {
-  color: white;
+  color: rgb(16, 40, 71);
 }
-
-/* Customize Previous/Next/Dots/Autoplay - Active State */
 
 .slick-next:focus .slick-next-icon,
 .slick-next:focus .slick-prev-icon,
@@ -30,11 +21,22 @@
 .slick-prev:focus .slick-prev-icon,
 .slick-dots li button:focus .slick-dot-icon:before,
 .slick-dots li.slick-active button:focus .slick-dot-icon,
-.slick-autoplay-toggle-button:focus {
-  color: black;
+.slick-autoplay-toggle-button:focus 
+{
+  color: rgb(16, 40, 71);
 }
 
-/*Responsive Images*/
+.fade img{
+  max-width:100%;
+  border-radius: 15px;
+}
+
+.fade{
+  margin:40px auto;
+  width:70vw;
+  max-width:700px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -181,8 +183,6 @@ aside footer {
   background-attachment: fixed;
   background-size: cover;
 }
-
-/* Media Queries */
 
 @media screen and (max-width: 575px) {
   #main-nav ul,
