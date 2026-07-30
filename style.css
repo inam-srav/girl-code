@@ -135,7 +135,11 @@ figcaption,
 }
 
 #love{
-  padding-top: 1px;
+  padding-top: 2px;
+}
+
+#heal{
+  padding: 1px;
 }
 
 article.post a {
