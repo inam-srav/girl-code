@@ -60,7 +60,7 @@ header.primary {
 }
 
 header.primary h1 {
-  font-size: 3rem;
+  font-size: 60px;
   margin: 20px;
   font-family: "Merriweather Sans", sans-serif;
 }
@@ -160,6 +160,7 @@ aside .container {
 
 aside article h1 {
   font-size: 1.3rem;
+  color: #adcff6;
 }
 
 aside a {
